@@ -3,10 +3,7 @@ import fs from "fs/promises"
 import { getTranslations } from "next-intl/server"
 
 export default async function GalleryPage() {
-  const file = await fs.readFile(
-    process.cwd() + "/src/data/gallery.json",
-    "utf8"
-  )
+  const file = await fs.readFile(process.cwd() + "public/gallery.json", "utf8")
   const data = JSON.parse(file)
   const t = await getTranslations("gallery")
 
