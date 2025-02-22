@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Home",
+    "team": "Our team",
+    "problems": "Problems",
+    "gallery": "Gallery",
+    "registration": "Registration",
+    "changeLanguage": "Change language"
+  },
+  "footer": {
+    "socials": "Follow us",
+    "resources": "Resources",
+    "materials": "Problems",
+    "about": "About",
+    "gallery": "Gallery",
+    "ourTeam": "Our team",
+    "rules": "Rules of the tournament"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ru {ru Russian} en {🇺🇸 English} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "Mathbattles"
+  },
+  "home": {
+    "mathBattles": "Math Battles Community - synergy in numbers, unity in minds",
+    "numbers": "Math Battles at a glance",
+    "kids": "Children from various backgrounds from all over Kazakhstan gather here in Almaty to share the joy of math in a challenging and fun competition.",
+    "onlineParticipants": "online participants in the last tournament",
+    "offlineParticipants": "offline participants in the last tournament",
+    "fund": "total prize money awarded to winners",
+    "republicanOlympiadParticipants": "National Math Olympiad medalists among our participants",
+    "republicanOlympiadJury": "National Math Olympiad medalists among our adjudicators",
+    "ourMission": "Vision and Mission",
+    "about": "Maths Battles Community is a team of talented math and science olympiad contestants. Our diverse and welcoming community of problem solvers uplifts both students and educators to shine their talents by creating innovative STEM and EdTech solutions.",
+    "ourMissionContext": "Our aim is to spread the joy of learning new things and solving complicated problems with as many people as possible by organizing tournaments, camps, online and offline courses and lessons that are made available to everyone interested. We gather people from all over Kazakhstan to promote the exchange of ideas and foster a passion for mathematics through friendly competition. Our events are just as enriching for our team members and we welcome all interested mathematicians to join us."
+  },
+  "our-team": {
+    "about": "About us",
+    "weAre": "We are the Maths Battles Community, a large nonprofit tournament organization.",
+    "primaryGoal": "Our primary goal is to develop teamwork and collaboration among students passionate about mathematics.",
+    "goalsValues": "Our Goals and Values",
+    "popularization": "Popularization",
+    "collaboration": "Collaboration",
+    "fun": "Fun",
+    "popularizationContext": "Promoting the Olympiads movement among school students as a means of nurturing the intellectual elite of the country and encourage people from underprivileged backgrounds",
+    "collaborationContext": "Supporting interactions and experience exchange among the country's brightest minds through teamwork and cooperation within the teams, organizers and volunteers",
+    "funContext": "Our Math Battles are always a stressful event - olympiads always are! But out team does their best to moderate the experience and make sure the competition is fun and fair for everyone.",
+    "ourTeam": "Our team"
+  },
+  "gallery": {
+    "gallery": "Gallery",
+    "selection": "A selection of photos from our events."
+  },
+  "registration": {
+    "registration": "Registration Form for Almaty Maths Battles 2025",
+    "registrationContext": "Before filling out this form, make sure you've read and understood the rules of the tournament. You can edit your response after filling out the form via a letter from Google Forms that will be sent to your email. Please note that teams must consist of either 4 or 5 participants."
+  },
+  "problems": {
+    "inDevelopment": "In development",
+    "notReady": "Problems page is not ready yet. Come later",
+    "iSwear": "I swear there would be a lot to find"
+  },
+  "notFound": {
+    "missing": "Something is missing",
+    "missingContext": "Sorry, we can't find that page."
+  }
+}
