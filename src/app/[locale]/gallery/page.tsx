@@ -2,9 +2,7 @@ import Gallery from "@/components/Gallery"
 import { getTranslations } from "next-intl/server"
 
 export default async function GalleryPage() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL}/api/gallery.json`
-  )
+  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/gallery.json`)
   const data = await res.json()
   const t = await getTranslations("gallery")
 
