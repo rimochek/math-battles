@@ -1,100 +1,99 @@
 {
   "navigation": {
-    "home": "Главная",
-    "team": "Наша команда",
-    "problems": "Материалы",
-    "gallery": "Галерея",
-    "registration": "Регистрация",
-    "changeLanguage": "Поменять язык"
+    "home": "Home",
+    "team": "Our team",
+    "problems": "Problems",
+    "gallery": "Gallery",
+    "registration": "Registration",
+    "changeLanguage": "Change language"
   },
   "footer": {
-    "socials": "Подписывайтесь",
-    "resources": "Ресурсы",
-    "materials": "Материалы",
-    "about": "О нас",
-    "gallery": "Галлерея",
-    "ourTeam": "Наша команда",
-    "rules": "Правила турнира"
+    "socials": "Follow us",
+    "resources": "Resources",
+    "materials": "Problems",
+    "about": "About",
+    "gallery": "Gallery",
+    "ourTeam": "Our team",
+    "rules": "Rules of the tournament"
   },
   "LocaleSwitcher": {
-    "label": "Поменять язык",
-    "locale": "{locale, select, ru {Русский} en {Английский} kz {Казахский} other {Неопознанный}}"
+    "label": "Change language",
+    "locale": "{locale, select, ru {ru Russian} en {🇺🇸 English} kz {kz Kazakh} other {Unknown}}"
   },
   "LocaleLayout": {
     "title": "Mathbattles"
   },
   "home": {
-    "mathBattles": "Math Battles Community - синергия в цифрах, единство в умах",
-    "numbers": "Мат Бои в цифрах",
-    "kids": "Дети разного происхождения со всего Казахстана собираются здесь, в Алматы, чтобы разделить радость математики в сложном и веселом соревновании.",
-    "onlineParticipants": "онлайн участников последнего турнира",
-    "offlineParticipants": "офлайн участников последнего турнира",
-    "fund": "общий призовой фонд, врученный победителям",
-    "republicanOlympiadParticipants": "призёров Республиканской олимпиады по математике среди наших участников",
-    "republicanOlympiadJury": "призёров Республиканской олимпиады по математике среди наших жюри",
-    "ourMission": "Наша миссия",
-    "about": "Сообщество Maths Battles — это команда талантливых участников олимпиад по математике и естественным наукам. Наше разнообразное и гостеприимное сообщество людей, решающих задачи, помогает ученикам и преподавателям проявить свои таланты, создавая инновационные решения STEM и EdTech.",
-    "ourMissionContext": "Наша цель — распространить радость от изучения новых вещей и решения сложных задач среди как можно большего числа людей, организуя турниры, лагеря, онлайн и оффлайн курсы и уроки, которые доступны всем заинтересованным лицам. Мы собираем людей со всего Казахстана, чтобы способствовать обмену идеями и воспитать страсть к математике посредством дружеского соревнования. Наши мероприятия также полезны для членов нашей команды, и мы приглашаем всех заинтересованных математиков присоединиться к нам.",
-    "timeline": "Таймлайн",
-    "register": "Регистрация",
-    "online": "Онлайн отбор",
-    "final": "Финал",
-    "registerContext": "Регистрация на отборочный этап до 22 октября, 23:59 по времени г. Алматы.",
-    "onlineContext": "Онлайн отбор пройдет 25 октябре 2025 года на платформе classroom.google.com 10:00-14:30 по Алмате (GMT +5). \n Ограничение на решение — 4 часа 30 минут. \n Всем зарегистрированным участникам инструкции с доступом к платформе будут отправлены ближе к дате.",
-    "finalContext": "Финальный очный этап с 28 ноября по 1 декабря на базе <link>Baiterek School of Science and Technology</link> в г. Алматы, Республика Казахстан."
+    "mathBattles": "Math Battles Community - synergy in numbers, unity in minds",
+    "numbers": "Math Battles at a glance",
+    "kids": "Children from various backgrounds from all over Kazakhstan gather here in Almaty to share the joy of math in a challenging and fun competition.",
+    "onlineParticipants": "online participants in the last tournament",
+    "offlineParticipants": "offline participants in the last tournament",
+    "fund": "total prize money awarded to winners",
+    "republicanOlympiadParticipants": "National Math Olympiad medalists among our participants",
+    "republicanOlympiadJury": "National Math Olympiad medalists among our adjudicators",
+    "ourMission": "Vision and Mission",
+    "about": "Maths Battles Community is a team of talented math and science olympiad contestants. Our diverse and welcoming community of problem solvers uplifts both students and educators to shine their talents by creating innovative STEM and EdTech solutions.",
+    "ourMissionContext": "Our aim is to spread the joy of learning new things and solving complicated problems with as many people as possible by organizing tournaments, camps, online and offline courses and lessons that are made available to everyone interested. We gather people from all over Kazakhstan to promote the exchange of ideas and foster a passion for mathematics through friendly competition. Our events are just as enriching for our team members and we welcome all interested mathematicians to join us.",
+    "timeline": "Timeline",
+    "register": "Registration",
+    "online": "Online Selection",
+    "final": "Final",
+    "registerContext": "Registration for the selection online stage until 23:59 Almaty time, October 22nd.",
+    "onlineContext": "The online selection will take place on October 25, 2025, on the platform <link>app.formative.com</link> from 10:00 to 14:30 Almaty time (GMT +5). \n The time limit for solving is 4 hours and 30 minutes. \n Instructions and access links will be sent to all registered participants closer to the date.",
+    "finalContext": "The final in-person stage from November 28 to December 1 at <link>Baiterek School of Science and Technology</link> in Almaty."
   },
   "our-team": {
-    "about": "О нас",
-    "weAre": "Мы — сообщество Maths Battles, крупная некоммерческая организация турниров.",
-    "primaryGoal": "Наша основная цель — развивать командную работу и сотрудничество среди учеников, увлеченных математикой.",
-    "goalsValues": "Наши Цели и Ценности",
-    "popularization": "Популяризация",
-    "collaboration": "Коллаборация",
-    "fun": "Веселье",
-    "popularizationContext": "Развитие олимпиадного движения среди школьников как средства воспитания интеллектуальной элиты страны и предоставления возможностей для детей.",
-    "collaborationContext": "Поддержка взаимодействия и обмена опытом между лучшими умами страны посредством командной работы и сотрудничества внутри команд, организаторов и волонтеров.",
-    "funContext": "Несмотря на то, что соревнование всегда является напряженным событием, команда организаторов турнира старается уменьшить напряжение для всех участников и объединить веселье и математику!",
-    "ourTeam": "Наша команда"
+    "about": "About us",
+    "weAre": "We are the Maths Battles Community, a large nonprofit tournament organization.",
+    "primaryGoal": "Our primary goal is to develop teamwork and collaboration among students passionate about mathematics.",
+    "goalsValues": "Our Goals and Values",
+    "popularization": "Popularization",
+    "collaboration": "Collaboration",
+    "fun": "Fun",
+    "popularizationContext": "Promoting the Olympiads movement among school students as a means of nurturing the intellectual elite of the country and encourage people from underprivileged backgrounds",
+    "collaborationContext": "Supporting interactions and experience exchange among the country's brightest minds through teamwork and cooperation within the teams, organizers and volunteers",
+    "funContext": "Our Math Battles are always a stressful event - olympiads always are! But out team does their best to moderate the experience and make sure the competition is fun and fair for everyone.",
+    "ourTeam": "Our team"
   },
   "gallery": {
-    "gallery": "Галерея",
-    "selection": "Подборка фотографий с наших мероприятий."
+    "gallery": "Gallery",
+    "selection": "A selection of photos from our events."
   },
   "registration": {
-    "registration": "Регистрационная форма на Алматинские Математические Бои 2025",
-    "registrationContext": "Прежде чем заполнять эту форму, убедитесь, что вы прочитали и поняли правила турнира. Вы можете отредактировать свой ответ после заполнения формы через письмо от Google Forms, которое будет отправлено на вашу электронную почту. Обратите внимание, что количество участников должно быть либо 4, либо 5."
+    "registration": "Registration Form for Almaty Maths Battles 2025",
+    "registrationContext": "Before filling out this form, make sure you've read and understood the rules of the tournament. You can edit your response after filling out the form via a letter from Google Forms that will be sent to your email. Please note that teams must consist of either 4 or 5 participants."
   },
   "problems": {
-    "title": "Задачи прошлых лет",
+    "title": "Past Problems",
     "files": [
       {
-        "name": "AMB 2022 Младшая Лига Haileybury Almaty",
+        "name": "AMB 2022 Junior League Haileybury Almaty",
         "file": "/past_problems/AMB 2022 Haileybury Almaty - Junior.pdf"
       },
       {
-        "name": "AMB 2022 Старшая Лига Haileybury Almaty",
+        "name": "AMB 2022 Senior League Haileybury Almaty",
         "file": "/past_problems/AMB 2022 Haileybury Almaty - Senior.pdf"
-      },
-      {
-        "name": "AMB 2023 Младшая Лига Haileybury Almaty",
+      },{
+        "name": "AMB 2023 Junior League Haileybury Almaty",
         "file": "/past_problems/AMB 2023 Haileybury Almaty - Junior.pdf"
       },
       {
-        "name": "AMB 2023 Старшая Лига Haileybury Almaty",
+        "name": "AMB 2023 Senior League Haileybury Almaty",
         "file": "/past_problems/AMB 2023 Haileybury Almaty - Senior.pdf"
       },
       {
-        "name": "AMB 2025 Младшая Лига Pifagor",
+        "name": "AMB 2025 Junior League Pifagor",
         "file": "/past_problems/AMB 2025 Pifagor - Junior.pdf"
       },
       {
-        "name": "AMB 2025 Старшая Лига Pifagor",
+        "name": "AMB 2025 Senior League Pifagor",
         "file": "/past_problems/AMB 2025 Pifagor - Senior.pdf"
       }
     ]
   },
   "notFound": {
-    "missing": "Страница не найдена",
-    "missingContext": "К сожалению, мы не можем найти эту страницу."
+    "missing": "Something is missing",
+    "missingContext": "Sorry, we can't find that page."
   }
 }
