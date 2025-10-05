@@ -34,7 +34,14 @@
     "republicanOlympiadJury": "National Math Olympiad medalists among our adjudicators",
     "ourMission": "Vision and Mission",
     "about": "Maths Battles Community is a team of talented math and science olympiad contestants. Our diverse and welcoming community of problem solvers uplifts both students and educators to shine their talents by creating innovative STEM and EdTech solutions.",
-    "ourMissionContext": "Our aim is to spread the joy of learning new things and solving complicated problems with as many people as possible by organizing tournaments, camps, online and offline courses and lessons that are made available to everyone interested. We gather people from all over Kazakhstan to promote the exchange of ideas and foster a passion for mathematics through friendly competition. Our events are just as enriching for our team members and we welcome all interested mathematicians to join us."
+    "ourMissionContext": "Our aim is to spread the joy of learning new things and solving complicated problems with as many people as possible by organizing tournaments, camps, online and offline courses and lessons that are made available to everyone interested. We gather people from all over Kazakhstan to promote the exchange of ideas and foster a passion for mathematics through friendly competition. Our events are just as enriching for our team members and we welcome all interested mathematicians to join us.",
+    "timeline": "Timeline",
+    "register": "Registration",
+    "online": "Online Selection",
+    "final": "Final",
+    "registerContext": "Registration for the online selection (the exact date and time will be announced later).",
+    "onlineContext": "The online selection will take place on October 25, 2025, on the platform classroom.google.com from 10:00 to 14:30 Almaty time (GMT +5). \n The time limit for solving is 4 hours and 30 minutes. \n Instructions and access links will be sent to all registered participants closer to the date.",
+    "finalContext": "The final in-person stage will be held on November 30 – December 1, 2025, in Almaty at the Baiterek School campus."
   },
   "our-team": {
     "about": "About us",
@@ -58,9 +65,25 @@
     "registrationContext": "Before filling out this form, make sure you've read and understood the rules of the tournament. You can edit your response after filling out the form via a letter from Google Forms that will be sent to your email. Please note that teams must consist of either 4 or 5 participants."
   },
   "problems": {
-    "inDevelopment": "In development",
-    "notReady": "Problems page is not ready yet. Come later",
-    "iSwear": "I swear there would be a lot to find"
+    "title": "Past Problems",
+    "files": [
+      {
+        "name": "AMB 2023 Junior League Haileybury Almaty",
+        "file": "/past_problems/AMB 2023 Haileybury Almaty - Junior.pdf"
+      },
+      {
+        "name": "AMB 2023 Senior League Haileybury Almaty",
+        "file": "/past_problems/AMB 2023 Haileybury Almaty - Senior.pdf"
+      },
+      {
+        "name": "AMB 2025 Junior League Pifagor",
+        "file": "/past_problems/AMB 2025 Pifagor - Junior.pdf"
+      },
+      {
+        "name": "AMB 2025 Senior League Pifagor",
+        "file": "/past_problems/AMB 2025 Pifagor - Senior.pdf"
+      }
+    ]
   },
   "notFound": {
     "missing": "Something is missing",
