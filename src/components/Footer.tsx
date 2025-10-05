@@ -31,7 +31,7 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="/materials" className="hover:underline">
+                  <Link href="/problems" className="hover:underline">
                     {t("materials")}
                   </Link>
                 </li>
