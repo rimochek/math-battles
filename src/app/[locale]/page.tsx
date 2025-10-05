@@ -54,7 +54,20 @@ export default function IndexPage() {
               >
                 {t("online")}
               </p>
-              <p className="font-medium text-xl" style={{ whiteSpace: "pre-line" }}>{t("onlineContext")}</p>
+              <p className="font-medium text-xl" style={{ whiteSpace: "pre-line" }}>
+                {t.rich("onlineContext", {
+                  link: (chunks) => (
+                    <a
+                      href="https://app.formative.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      {chunks}
+                    </a>
+                  ),
+                })}
+              </p>
             </div>
             <div className="bg-white rounded-3xl p-7 min-h-48">
               <p
