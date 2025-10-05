@@ -1,5 +1,55 @@
 {
   "gallery": {
+    "AMB 2025 Pifagor": [
+      {
+        "name": "1",
+        "url": "ambp2025_1.PNG"
+      },
+      {
+        "name": "2",
+        "url": "ambp2025_2.PNG"
+      },
+      {
+        "name": "3",
+        "url": "ambp2025_3.PNG"
+      },
+      {
+        "name": "4",
+        "url": "ambp2025_4.PNG"
+      },
+      {
+        "name": "5",
+        "url": "ambp2025_5.PNG"
+      },
+      {
+        "name": "6",
+        "url": "ambp2025_6.PNG"
+      },
+      {
+        "name": "7",
+        "url": "ambp2025_7.PNG"
+      },
+      {
+        "name": "8",
+        "url": "ambp2025_8.PNG"
+      },
+      {
+        "name": "9",
+        "url": "ambp2025_9.PNG"
+      },
+      {
+        "name": "10",
+        "url": "ambp2025_10.PNG"
+      },
+      {
+        "name": "11",
+        "url": "ambp2025_11.PNG"
+      },
+      {
+        "name": "12",
+        "url": "ambp2025_12.PNG"
+      }
+    ],
     "AMB 2023 Haileybury Almaty": [
       {
         "name": "1",
@@ -68,20 +118,6 @@
         "url": "ambfiztex2023_8.webp"
       }
     ],
-    "AMB 2022 Fizmat Almaty": [
-      {
-        "name": "1",
-        "url": "ambfizmat2022_1.webp"
-      },
-      {
-        "name": "2",
-        "url": "ambfizmat2022_2.webp"
-      },
-      {
-        "name": "3",
-        "url": "ambfizmat2022_3.webp"
-      }
-    ],
     "AMB 2022 Haileybury Almaty": [
       {
         "name": "1",
@@ -106,6 +142,20 @@
       {
         "name": "6",
         "url": "ambhb2022_6.webp"
+      }
+    ],
+    "AMB 2022 Fizmat Almaty": [
+      {
+        "name": "1",
+        "url": "ambfizmat2022_1.webp"
+      },
+      {
+        "name": "2",
+        "url": "ambfizmat2022_2.webp"
+      },
+      {
+        "name": "3",
+        "url": "ambfizmat2022_3.webp"
       }
     ]
   }
