@@ -68,19 +68,27 @@
     "title": "Алдыңғы жылдардың тапсырмалары",
     "files": [
       {
-        "name": "AMB 2023 Кіші лига Haileybury Almaty",
-        "file": "/past_problems/AMB 2023 Haileybury Almaty - Junior.pdf"
+        "name": "AMB 2022 Кіші лига Haileybury Almaty",
+        "file": "/past_problems/AMB 2022 Haileybury Almaty - Junior.pdf"
       },
       {
-        "name": "AMB 2023 Үлкен лига Haileybury Almaty",
+        "name": "AMB 2022 Жоғары лига Haileybury Almaty",
+        "file": "/past_problems/AMB 2022 Haileybury Almaty - Senior.pdf"
+      },
+      {
+        "name": "AMB 2023 Кіші лига Haileybury Almaty",
         "file": "/past_problems/AMB 2023 Haileybury Almaty - Senior.pdf"
+      },
+      {
+        "name": "AMB 2023 Жоғары лига Haileybury Almaty",
+        "file": "/past_problems/AMB 2022 Haileybury Almaty - Senior.pdf"
       },
       {
         "name": "AMB 2025 Кіші лига Pifagor",
         "file": "/past_problems/AMB 2025 Pifagor - Junior.pdf"
       },
       {
-        "name": "AMB 2025 Үлкен лига Pifagor",
+        "name": "AMB 2025 Жоғары лига Pifagor",
         "file": "/past_problems/AMB 2025 Pifagor - Senior.pdf"
       }
     ]
