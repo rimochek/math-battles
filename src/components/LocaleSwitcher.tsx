@@ -16,7 +16,7 @@ export default function LocaleSwitcher() {
 
   function changeLanguage(nextLocale: string) {
     startTransition(() => {
-      router.replace({ pathname, query: params }, { locale: nextLocale })
+      router.replace({ pathname }, { locale: nextLocale })
     })
   }
 
@@ -43,13 +43,12 @@ export default function LocaleSwitcher() {
         <div className="py-1">
           {routing.locales.map((cur) => (
             <MenuItem key={cur}>
-              <a
+              <button
                 onClick={() => changeLanguage(cur)}
-                href="#"
                 className="block px-4 py-2 text-base text-gray-700 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
               >
                 {t("locale", { locale: cur })}
-              </a>
+              </button>
             </MenuItem>
           ))}
         </div>
