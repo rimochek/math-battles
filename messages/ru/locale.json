@@ -18,7 +18,7 @@
   },
   "LocaleSwitcher": {
     "label": "Поменять язык",
-    "locale": "{locale, select, ru {ru Русский} en {🇺🇸 Английский} other {Неопознанный}}"
+    "locale": "{locale, select, ru {ru Русский} en {🇺🇸 Английский} kz {kz Казахский} other {Неопознанный}}"
   },
   "LocaleLayout": {
     "title": "Mathbattles"
