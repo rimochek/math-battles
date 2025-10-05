@@ -63,7 +63,20 @@ export default function IndexPage() {
               >
                 {t("final")}
               </p>
-              <p className="font-medium text-xl">{t("finalContext")}</p>
+              <p className="font-medium text-xl">
+                {t.rich("finalContext", {
+                  link: (chunks) => (
+                    <a
+                      href="https://2gis.kz/almaty/firm/70000001101988107"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      {chunks}
+                    </a>
+                  ),
+                })}
+              </p>
             </div>
           </div>
         </div>
