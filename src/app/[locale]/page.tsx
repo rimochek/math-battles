@@ -25,6 +25,49 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
+      <div style={{ backgroundColor: "#1D3AAC" }}>
+        <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 py-12">
+          <div className="flex flex-col justify-center items-center">
+            <p
+              className="font-bold text-4xl text-white mb-8"
+              style={{ textShadow: "0 4px 6px #080606" }}
+            >
+              {t("timeline")}
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_2fr_1fr] gap-8">
+            <div className="bg-white rounded-3xl p-7 min-h-48">
+              <p
+                className="text-3xl font-bold mb-3"
+                style={{ color: "#200ac9" }}
+              >
+                {t("register")}
+              </p>
+              <p className="font-medium text-xl">
+                {t("registerContext")}
+              </p>
+            </div>
+            <div className="bg-white rounded-3xl p-7 min-h-48">
+              <p
+                className="text-3xl font-bold mb-3"
+                style={{ color: "#200ac9" }}
+              >
+                {t("online")}
+              </p>
+              <p className="font-medium text-xl" style={{ whiteSpace: "pre-line" }}>{t("onlineContext")}</p>
+            </div>
+            <div className="bg-white rounded-3xl p-7 min-h-48">
+              <p
+                className="text-3xl font-bold mb-3"
+                style={{ color: "#200ac9" }}
+              >
+                {t("final")}
+              </p>
+              <p className="font-medium text-xl">{t("finalContext")}</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 py-16">
         <div className="md:flex justify-start w-full">
           <p className="text-5xl font-semibold">{t("numbers")}</p>
