@@ -5,4 +5,4 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 }
 
-export default withNextIntl()(nextConfig)
+export default withNextIntl('./src/i18n/request.ts')(nextConfig)

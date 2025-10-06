@@ -9,16 +9,20 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale
   }
 
-  const [localeMessages, teamMessages] = await Promise.all([
+  const [localeMessages, teamMessages, applyMessages, registrationMessages] = await Promise.all([
     import(`../../messages/${locale}/locale.json`).then((m) => m.default),
     import(`../../messages/${locale}/team.json`).then((m) => m.default),
+    import(`../../messages/${locale}/apply.json`).then((m) => m.default),
+    import(`../../messages/${locale}/registration.json`).then((m) => m.default),
   ])
 
   return {
     locale,
     messages: {
       ...localeMessages,
-      ...teamMessages,
+      team: teamMessages,
+      apply: applyMessages,
+      registration: registrationMessages,
     },
   }
 })

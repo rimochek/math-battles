@@ -5,8 +5,8 @@ import { SocialIcon } from "react-social-icons"
 export default function OurTeamPage() {
   const t = useTranslations("our-team")
 
-  const t_team = useTranslations()
-  const teamData = t_team.raw("team")
+  const t_team = useTranslations("team")
+  const teamData = t_team.raw("team") || []
 
   return (
     <div>
