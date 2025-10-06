@@ -1,7 +1,14 @@
-"use client"
-import { useTranslations } from "next-intl"
 
-export default function RegistrationPage() {
+import { useTranslations } from "next-intl"
+import { RegisterForm } from "@/components/register";
+
+interface RegistrationPageProps {
+  params: {
+    locale: "ru" | "kz"| "en"; // Используем ожидаемые локали
+  }
+}
+export default function RegistrationPage({ params }: RegistrationPageProps) {
+  const { locale } = params;
   const t = useTranslations("registration")
 
   return (
@@ -10,6 +17,8 @@ export default function RegistrationPage() {
         <p className="font-bold text-4xl mb-5">{t("registration")}</p>
         <p className="text-xl">{t("registrationContext")}</p>
       </div>
+      <RegisterForm lang={locale} /> 
     </div>
+    
   )
 }

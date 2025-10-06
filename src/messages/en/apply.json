@@ -1,0 +1,52 @@
+{
+    "team": {
+      "name": "Team Name"
+    },
+    "league": {
+      "label": "League",
+      "junior": "Junior",
+      "senior": "Senior"
+    },
+    "language": {
+      "label": "Language",
+      "ru": "Russian",
+      "kz": "Kazakh"
+    },
+    "hasLeader": {
+      "label": "Has a Leader",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "leaderInfo": "The team leader is any person who has reached the age of majority and has a notarized power of attorney to accompany them to the tournament from the parents of minor participants. This could be a teacher, a school/educational institution employee, or any other person who has received a power of attorney.",
+    "captainInfo": "Team captain is a team member who participates in captain’s battles and participates in communication with the Tournament Organizing Committee when questions arise.",
+    "leaderName": "Leader's Name",
+    "leaderEmail": "Leader's Email",
+    "leaderPhone": "Leader's Phone",
+    "captainName": "Captain's Name",
+    "captainSchool": "Captain's School",
+    "captainGrade": "Captain's Grade",
+    "captainEmail": "Captain's Email",
+    "captainPhone": "Captain's Phone",
+    "member1Name": "Second Member's Name (Not captain)",
+    "member1School": "Second Member's School",
+    "member1Grade": "Second Member's Grade",
+    "member1Email": "Second Member's Email",
+    "member1Phone": "Second Member's Phone",
+    "member2Name": "Third Member's Name",
+    "member2School": "Third Member's School",
+    "member2Grade": "Third Member's Grade",
+    "member2Email": "Third Member's Email",
+    "member2Phone": "Third Member's Phone",
+    "member3Name": "Fourth Member's Name ",
+    "member3School": "Fourth Member's School",
+    "member3Grade": "Fourth Member's Grade",
+    "member3Email": "Fourth Member's Email",
+    "member3Phone": "Fourth Member's Phone",
+    "personalData": "I consent to the collection, processing, and storage of Personal Data in accordance with <a href='https://bc-pf.org/docs/personaldata/list1-matomo.pdf' class='underline' target='_blank'>List №03-08/01</a>. You can review the Foundation's Personal Data Policy and the list on the <a href='https://bc-pf.org/personaldata' class='underline' target='_blank'>Foundation's website</a>.",
+    "register": {
+      "team": "Register Team",
+      "base": "Register"
+    },
+    "registrationClosed": "Registration is closed",
+    "seeYouSoon": "See you at AMB 2025!"
+  }

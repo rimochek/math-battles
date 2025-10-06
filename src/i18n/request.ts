@@ -9,9 +9,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale
   }
 
-  const [localeMessages, teamMessages] = await Promise.all([
-    import(`../../messages/${locale}/locale.json`).then((m) => m.default),
-    import(`../../messages/${locale}/team.json`).then((m) => m.default),
+  const [localeMessages, teamMessages, applyMessages] = await Promise.all([
+    import(`@/messages/${locale}/locale.json`).then((m) => m.default),
+    import(`@/messages/${locale}/team.json`).then((m) => m.default),
+    import(`@/messages/${locale}/apply.json`).then((m) => m.default), 
   ])
 
   return {
@@ -19,6 +20,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     messages: {
       ...localeMessages,
       ...teamMessages,
+      ...applyMessages,
     },
   }
 })
