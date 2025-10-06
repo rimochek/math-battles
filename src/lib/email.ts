@@ -19,9 +19,8 @@ export async function sendRegistrationConfirmation(data: TeamRegistrationData) {
   }
 
   try {
-    // You need to install resend: npm install resend
-    // const { Resend } = await import('resend');
-    // const resend = new Resend(RESEND_API_KEY);
+    const { Resend } = await import('resend');
+    const resend = new Resend(RESEND_API_KEY);
 
     const translations = {
       ru: {
@@ -75,8 +74,6 @@ ${t.details}
 
 ${t.footer}`;
 
-    // Uncomment when resend is installed:
-    /*
     const result = await resend.emails.send({
       from: 'Math Battles <noreply@battles.kz>',
       to: [data.leaderEmail],
@@ -84,19 +81,8 @@ ${t.footer}`;
       text: emailContent,
     });
 
+    console.log('Registration confirmation email sent successfully to:', data.leaderEmail);
     return { success: true, data: result };
-    */
-
-    // For now, just log the email content
-    console.log('Registration confirmation email (would be sent):');
-    console.log('To:', data.leaderEmail);
-    console.log('Subject:', t.subject);
-    console.log('Content:', emailContent);
-
-    return { 
-      success: true, 
-      message: 'Email would be sent (Resend not installed yet)'
-    };
 
   } catch (error) {
     console.error('Email sending failed:', error);
