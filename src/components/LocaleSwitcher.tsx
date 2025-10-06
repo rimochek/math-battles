@@ -16,7 +16,7 @@ export default function LocaleSwitcher() {
 
   function changeLanguage(nextLocale: string) {
     startTransition(() => {
-      router.replace({ pathname }, { locale: nextLocale })
+      router.replace({ pathname, query: params }, { locale: nextLocale })
     })
   }
 
