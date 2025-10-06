@@ -24,7 +24,7 @@ export const routing = defineRouting({
     "/registration": {
       en: "/registration",
       ru: "/регистрация",
-      kz: "/тіркеу",
+      kz: "/тіркелу",
     },
   },
 })
