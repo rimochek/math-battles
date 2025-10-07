@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
-import { useForm, useFormContext } from "react-hook-form";
+import { useForm, useFormContext, SubmitHandler } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
 import { cn } from "@/utils/cn";
@@ -73,7 +73,7 @@ export const RegisterForm = ({
     });
     const registrationCloseDate = new Date("2025-10-19T23:59:00+05:00");
     
-    const handleSubmit = async (data: TeamSchema) => {
+    const handleSubmit: SubmitHandler<TeamSchema> = async (data: TeamSchema) => {
         // reload the page if the registration is closed
         if (new Date() > registrationCloseDate) {
             location.reload()
