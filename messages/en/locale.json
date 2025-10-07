@@ -18,7 +18,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, ru {ru Russian} en {🇺🇸 English} kz {kz Kazakh} other {Unknown}}"
+    "locale": "{locale, select, ru {Russian} en {English} kz {Kazakh} other {Unknown}}"
   },
   "LocaleLayout": {
     "title": "Mathbattles"
@@ -39,7 +39,7 @@
     "register": "Registration",
     "online": "Online Selection",
     "final": "Final",
-    "registerContext": "Registration for the selection online stage until 23:59 Almaty time, October 22nd.",
+    "registerContext": "Registration for the selection online stage until 23:55 Almaty time, October 22nd.",
     "onlineContext": "The online selection will take place on October 25, 2025, on the platform <link>app.formative.com</link> from 10:00 to 14:30 Almaty time (GMT +5). \n The time limit for solving is 4 hours and 30 minutes. \n Instructions and access links will be sent to all registered participants closer to the date.",
     "finalContext": "The final in-person stage from November 28 to December 1 at <link>Baiterek School of Science and Technology</link> in Almaty."
   },
