@@ -1,10 +1,9 @@
 import Gallery from "@/components/Gallery"
 import { getTranslations } from "next-intl/server"
-import fs from 'fs'
-import path from 'path'
 
 export default async function GalleryPage() {
-  
+  const fs = require('fs')
+  const path = require('path')
   const galleryPath = path.join(process.cwd(), 'public', 'gallery.json')
   const galleryContent = fs.readFileSync(galleryPath, 'utf8')
   const data = JSON.parse(galleryContent)
