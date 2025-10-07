@@ -13,9 +13,9 @@ if (!DATABASE_URL) {
 export default {
   schema: "./src/db/schema.ts",
   out: "./drizzle",
-  dialect: "postgresql",
+  driver: "pg",
   dbCredentials: {
-    url: DATABASE_URL,
+    connectionString: DATABASE_URL,
   },
-  tablesFilter: ["AMB_*"],
+  tablesFilter: ["airdrop_*"],
 } satisfies Config;
