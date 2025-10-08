@@ -18,7 +18,7 @@
   },
   "LocaleSwitcher": {
     "label": "Тіл ауыстыру",
-    "locale": "{locale, select, ru {Орысша} en {Ағылшынша} kz {Қазақша} other {Белгісіз}}"
+    "locale": "{locale, select, ru {Русский} en {English} kz {Қазақ} other {Белгісіз}}"
   },
   "LocaleLayout": {
     "title": "AMB"
