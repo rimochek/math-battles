@@ -101,7 +101,7 @@ export default function IndexPage() {
         </div>
       </div>
       <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 py-16">
-        <div className="md:flex justify-start w-full flex-col">
+        <div className="flex-col justify-start w-full">
           <p className="text-5xl font-semibold">{t("numbers")}</p>
           <p className="md:w-1/3 md:mr-12 italic mb-4 md:mb-0">{t("kids")}</p>
         </div>
