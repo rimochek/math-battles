@@ -25,8 +25,14 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
+      <div 
+        className="h-32"
+        style={{
+          background: "linear-gradient(to bottom, rgba(0,0,0,0.5), #1D3AAC)"
+        }}
+      />
       <div style={{ backgroundColor: "#1D3AAC" }}>
-        <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 py-12">
+        <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 pb-12">
           <div className="flex flex-col justify-center items-center">
             <p
               className="font-bold text-4xl text-white mb-8"
@@ -97,7 +103,7 @@ export default function IndexPage() {
       <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 py-16">
         <div className="md:flex justify-start w-full">
           <p className="text-5xl font-semibold">{t("numbers")}</p>
-          <div className="md:ml-auto md:w-1/3 md:mt-12 italic">
+          <div className="md:w-1/3 md:mr-12 italic mb-4 md:mb-0">
             <p>{t("kids")}</p>
           </div>
         </div>
@@ -117,7 +123,7 @@ export default function IndexPage() {
           </div>
           <div className="">
             <p className="text-2xl font-bold" style={{ color: "#200ac9" }}>
-              1,900,000₸+
+              3,000,000₸+
             </p>
             <p className="font-medium">{t("fund")}</p>
           </div>
@@ -142,7 +148,7 @@ export default function IndexPage() {
           </div>
           <div>
             <Image
-              src="/images/homeImage2.png"
+              src="/images/gallery/amb2023_8.jpeg"
               width={4000}
               height={2000}
               alt="3 guys solving a problem"
