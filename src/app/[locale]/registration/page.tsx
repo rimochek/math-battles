@@ -19,7 +19,7 @@ export default function RegistrationPage() {
           marginHeight={0}
           marginWidth={0}
           loading="lazy">
-          Loading...
+          {t("loading")}
           </iframe>
         </div>
     </div>
