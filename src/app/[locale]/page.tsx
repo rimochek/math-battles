@@ -28,7 +28,7 @@ export default function IndexPage() {
       <div 
         className="h-32"
         style={{
-          background: "linear-gradient(to bottom, rgba(0,0,0,0.5), #1D3AAC)"
+          background: "linear-gradient(to bottom, rgba(0,0,0,1), #1D3AAC)"
         }}
       />
       <div style={{ backgroundColor: "#1D3AAC" }}>
@@ -103,9 +103,7 @@ export default function IndexPage() {
       <div className="mx-auto max-w-7xl items-center justify-between p-6 lg:px-8 py-16">
         <div className="md:flex justify-start w-full">
           <p className="text-5xl font-semibold">{t("numbers")}</p>
-          <div className="md:w-1/3 md:mr-12 italic mb-4 md:mb-0">
-            <p>{t("kids")}</p>
-          </div>
+          <p className="md:w-1/3 md:mr-12 italic mb-4 md:mb-0">{t("kids")}</p>
         </div>
         <div className="dark:bg-gray-700 h-1 mt-6 mb-6" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
