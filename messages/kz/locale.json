@@ -21,7 +21,7 @@
     "locale": "{locale, select, ru {Орысша} en {Ағылшынша} kz {Қазақша} other {Белгісіз}}"
   },
   "LocaleLayout": {
-    "title": "Mathbattles"
+    "title": "AMB"
   },
   "home": {
     "mathBattles": "Math Battles Community – сандардағы үйлесім, ойдағы бірлік",

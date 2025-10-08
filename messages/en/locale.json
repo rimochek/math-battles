@@ -21,7 +21,7 @@
     "locale": "{locale, select, ru {Russian} en {English} kz {Kazakh} other {Unknown}}"
   },
   "LocaleLayout": {
-    "title": "Mathbattles"
+    "title": "AMB"
   },
   "home": {
     "mathBattles": "Math Battles Community - synergy in numbers, unity in minds",
