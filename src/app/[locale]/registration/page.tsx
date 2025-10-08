@@ -13,8 +13,8 @@ export default function RegistrationPage() {
       <div className="w-full flex justify-center">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSd-QGpFGTRCJIAeHA8qB8U59wbEGivFqgq1rHeZOXnt0-de3Q/viewform?embedded=true"
-          width="640"
-          height="5917"
+          width="100%"
+          height="500"
           frameBorder="0"
           marginHeight={0}
           marginWidth={0}
