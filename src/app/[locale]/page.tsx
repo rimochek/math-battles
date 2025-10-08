@@ -26,7 +26,7 @@ export default function IndexPage() {
         </div>
       </div>
       <div 
-        className="h-32"
+        className="h-16"
         style={{
           background: "linear-gradient(to bottom, rgba(0,0,0,1), #1D3AAC)"
         }}
