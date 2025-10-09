@@ -49,8 +49,19 @@ export default function IndexPage() {
               >
                 {t("register")}
               </p>
-              <p className="font-medium text-xl">
-                {t("registerContext")}
+              <p className="font-medium text-xl" style={{ whiteSpace: "pre-line" }}>
+                {t.rich("registerContext", {
+                  link: (chunks) => (
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSd-QGpFGTRCJIAeHA8qB8U59wbEGivFqgq1rHeZOXnt0-de3Q/viewform?usp=header"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      {chunks}
+                    </a>
+                  ),
+                })}
               </p>
             </div>
             <div className="bg-white rounded-3xl p-7 min-h-48">
