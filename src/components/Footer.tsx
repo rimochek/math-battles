@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { useTranslations } from "next-intl"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
 
 export default function Footer() {
   const t = useTranslations("footer")
@@ -37,7 +37,7 @@ export default function Footer() {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="https://docs.google.com/file/d/1eFbF1bPgfzFCjJ0pf3ikvh6BYluwSojt/edit"
+                    href="https://docs.google.com/document/d/1muSZNWbnnNeYpfidLVcud6p1oHAix0i2NwERt-fIyuQ/edit?usp=sharing"
                     className="hover:underline"
                   >
                     {t("rules")}
