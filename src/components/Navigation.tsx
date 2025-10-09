@@ -29,7 +29,7 @@ export default function Navigation() {
               width="64"
               height="64"
               className=""
-              src="/images/logo128.png"
+              src="/images/icon.png"
               priority={true}
             />
           </a>
@@ -92,7 +92,7 @@ export default function Navigation() {
                 width="64"
                 height="64"
                 className=""
-                src="/images/logo128.png"
+                src="/images/icon.png"
               />
             </a>
             <button

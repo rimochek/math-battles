@@ -16,7 +16,7 @@ export default function Footer() {
                 width="64"
                 height="64"
                 className=""
-                src="/images/logo128.png"
+                src="/images/icon.png"
                 priority={true}
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-2">
