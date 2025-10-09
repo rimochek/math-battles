@@ -36,12 +36,12 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link
+                  <a
                     href="https://docs.google.com/file/d/1eFbF1bPgfzFCjJ0pf3ikvh6BYluwSojt/edit"
                     className="hover:underline"
                   >
                     {t("rules")}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -51,20 +51,20 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link
+                  <a
                     href="https://www.instagram.com/maths.battles/"
                     className="hover:underline "
                   >
                     Instagram
-                  </Link>
+                  </a>
                 </li>
                 <li className="mb-4">
-                  <Link
+                  <a
                     href="https://t.me/almatymathbattle"
                     className="hover:underline "
                   >
                     Telegram
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
