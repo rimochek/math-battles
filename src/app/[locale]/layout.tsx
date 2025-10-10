@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Omit<Props, "children">) {
     title: t("title"),
     description: "Math Battles Community",
     icons: {
-      icon: "/icon.png",
+      icon: "/favicon.ico",
     },
     manifest: "/site.webmanifest",
   }
