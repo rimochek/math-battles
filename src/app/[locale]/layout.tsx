@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Omit<Props, "children">) {
     description: "Math Battles Community",
     icons: {
       icon: "/favicon.ico",
+      apple: "/icon.png",
     },
     manifest: "/site.webmanifest",
   }

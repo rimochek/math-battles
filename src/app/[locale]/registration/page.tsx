@@ -8,7 +8,20 @@ export default function RegistrationPage() {
     <div>
       <div className="mx-auto max-w-4xl items-center justify-between p-6 lg:px-8 pt-12 pb-16">
         <p className="font-bold text-4xl mb-5">{t("registration")}</p>
-        <p className="text-xl">{t("registrationContext")}</p>
+        <p className="text-xl">
+          {t.rich("registrationContext", {
+            link: (chunks) => (
+              <a
+                href="https://docs.google.com/document/d/1muSZNWbnnNeYpfidLVcud6p1oHAix0i2NwERt-fIyuQ/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                {chunks}
+              </a>
+            ),
+          })}
+        </p>
       </div>
       <div className="w-full flex justify-center">
         <iframe
