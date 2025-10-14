@@ -11,7 +11,7 @@ export default function RegistrationPage() {
           {t.rich("registrationContext", {
             link: (chunks) => (
               <a
-                href="https://docs.google.com/document/d/1muSZNWbnnNeYpfidLVcud6p1oHAix0i2NwERt-fIyuQ/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1jjUl488oZaMVsH_zFRXI5VQrGNv9iabK/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-blue-600 hover:text-blue-800 transition-colors"

@@ -37,7 +37,7 @@ export default function Footer() {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="https://docs.google.com/document/d/1muSZNWbnnNeYpfidLVcud6p1oHAix0i2NwERt-fIyuQ/edit?usp=sharing"
+                    href="https://drive.google.com/file/d/1jjUl488oZaMVsH_zFRXI5VQrGNv9iabK/view?usp=sharing"
                     className="hover:underline"
                   >
                     {t("rules")}
