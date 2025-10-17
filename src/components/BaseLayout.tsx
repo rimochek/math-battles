@@ -15,7 +15,7 @@ export default async function BaseLayout({ children, locale }: Props) {
 
   return (
     <html className="h-full" lang={locale}>
-      <head>
+      <body className="flex min-h-screen flex-col">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZS8CNS2LJZ"
           strategy="afterInteractive"
@@ -28,8 +28,6 @@ export default async function BaseLayout({ children, locale }: Props) {
             gtag('config', 'G-ZS8CNS2LJZ');
           `}
         </Script>
-      </head>
-      <body className="flex min-h-screen flex-col">
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           <div id="transition">{children}</div>
