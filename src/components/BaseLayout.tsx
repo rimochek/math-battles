@@ -1,9 +1,9 @@
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
 import { ReactNode } from "react"
-import Navigation from "@/components/Navigation"
+import Navigation from "./Navigation"
 import Footer from "./Footer"
-import Script from "next/script"
+import GoogleAnalytics from "./GoogleAnalytics"
 
 type Props = {
   children: ReactNode
@@ -16,18 +16,7 @@ export default async function BaseLayout({ children, locale }: Props) {
   return (
     <html className="h-full" lang={locale}>
       <body className="flex min-h-screen flex-col">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZS8CNS2LJZ"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZS8CNS2LJZ');
-          `}
-        </Script>
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           <div id="transition">{children}</div>
