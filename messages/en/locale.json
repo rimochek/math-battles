@@ -93,7 +93,9 @@
       },
       {
         "name": "AMB 2025 Baiterek",
-        "file": "/past_problems/AMB 2025 Baiterek.pdf"
+        "file": "/past_problems/AMB 2025 Baiterek.pdf",
+        "note": "Some problems were proposed by <link>Aleph</link>",
+        "noteLink": "https://alephproblems.com/"
       }
     ]
   },

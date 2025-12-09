@@ -94,7 +94,9 @@
       },
       {
         "name": "AMB 2025 Baiterek",
-        "file": "/past_problems/AMB 2025 Baiterek.pdf"
+        "file": "/past_problems/AMB 2025 Baiterek.pdf",
+        "note": "Некоторые задачи были предложены <link>Aleph</link>",
+        "noteLink": "https://alephproblems.com/"
       }
     ]
   },
