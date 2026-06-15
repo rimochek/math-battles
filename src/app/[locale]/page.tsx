@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl"
 import Image from "next/image"
+import Link from "@/i18n/routing"
 
 export const dynamic = "auto"
 
