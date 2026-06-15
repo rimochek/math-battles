@@ -52,14 +52,12 @@ export default function IndexPage() {
               <p className="font-medium text-xl" style={{ whiteSpace: "pre-line" }}>
                 {t.rich("registerContext", {
                   link: (chunks) => (
-                    <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSd-QGpFGTRCJIAeHA8qB8U59wbEGivFqgq1rHeZOXnt0-de3Q/viewform?usp=header"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href="/registration"
                       className="underline text-blue-600 hover:text-blue-800 transition-colors"
                     >
                       {chunks}
-                    </a>
+                    </Link>
                   ),
                 })}
               </p>
@@ -72,18 +70,7 @@ export default function IndexPage() {
                 {t("online")}
               </p>
               <p className="font-medium text-xl" style={{ whiteSpace: "pre-line" }}>
-                {t.rich("onlineContext", {
-                  link: (chunks) => (
-                    <a
-                      href="https://app.formative.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline text-blue-600 hover:text-blue-800 transition-colors"
-                    >
-                      {chunks}
-                    </a>
-                  ),
-                })}
+                {t.rich("onlineContext")}
               </p>
             </div>
             <div className="bg-white rounded-3xl p-7 min-h-48">
@@ -94,18 +81,7 @@ export default function IndexPage() {
                 {t("final")}
               </p>
               <p className="font-medium text-xl">
-                {t.rich("finalContext", {
-                  link: (chunks) => (
-                    <a
-                      href="https://2gis.kz/almaty/firm/70000001101988107"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline text-blue-600 hover:text-blue-800 transition-colors"
-                    >
-                      {chunks}
-                    </a>
-                  ),
-                })}
+                {t.rich("finalContext")}
               </p>
             </div>
           </div>

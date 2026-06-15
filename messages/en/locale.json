@@ -33,15 +33,15 @@
     "republicanOlympiadParticipants": "National Math Olympiad medalists among our participants",
     "republicanOlympiadJury": "National Math Olympiad medalists among our adjudicators",
     "ourMission": "Vision and Mission",
-    "about": "Almaty Math Battles 2025 - registration is open!",
+    "about": "Almaty Math Battles 2026 - registration is open!",
     "ourMissionContext": "Our aim is to spread the joy of learning new things and solving complicated problems with as many people as possible by organizing tournaments, camps, online and offline courses and lessons that are made available to everyone interested. We gather people from all over Kazakhstan to promote the exchange of ideas and foster a passion for mathematics through friendly competition. Our events are just as enriching for our team members and we welcome all interested mathematicians to join us.",
     "timeline": "Timeline",
     "register": "Registration",
     "online": "Online Selection",
     "final": "Final",
-    "registerContext": "<link>Registration</link> for the selection online stage until 20:00 Almaty time, October 24th.",
-    "onlineContext": "The online selection will take place on October 25, 2025, on the platform <link>app.formative.com</link> from 10:00 to 14:30 Almaty time (GMT +5). \n The time limit for solving is 4 hours and 30 minutes. \n Instructions and access links will be sent to all registered participants closer to the date.",
-    "finalContext": "The final in-person stage from November 28 to December 1 at <link>Baiterek School of Science and Technology</link> in Almaty."
+    "registerContext": "<link>Registration</link> for the qualifying round is open until July 2, 8:00 PM Almaty time (GMT +5).",
+    "onlineContext": "The online selection will take place on July 3, 2026, on the AutoProctor platform from 10:00 AM to 12:45 PM Almaty time (GMT +5). \n All registered participants will receive platform access instructions closer to the date.",
+    "finalContext": "The final in-person round will take place from August 3 to 7 at the International University of Information Technology in Almaty, Republic of Kazakhstan."
   },
   "our-team": {
     "about": "About us",
@@ -94,7 +94,8 @@
       {
         "name": "AMB 2025 Baiterek",
         "file": "/past_problems/AMB 2025 Baiterek.pdf",
-        "note": "Some of the problems were proposed by Aleph"
+        "note": "Some of the problems were proposed by <link>Aleph</link>",
+        "noteLink": "https://aleph-problems.com/"
       }
     ]
   },
